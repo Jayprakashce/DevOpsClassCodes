@@ -16,7 +16,7 @@
     command: docker tag myproject:CICD edu123/myproject:CICD
 
   - name: loginto docker
-    command: docker login --username edu123 --password Edureka@123
+    command: docker login --username jayprakashce --password Japs@9662
 
   - name: push image on to dockerhub
     command: docker push edu123/myproject:CICD
